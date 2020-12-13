@@ -10,7 +10,7 @@ std::vector<int> arr;
 int main(){
     #ifdef INPUT_OUTPUT
     freopen("../input/day-1.txt", "r", stdin); 
-    freopen("../output/day-1.txt", "w", stdout);
+    freopen("../output/day-1-part-1.txt", "w", stdout);
     #endif
 
     while (std::cin >> x)
