@@ -41,8 +41,8 @@ void bfs(int a)
 int main()
 {
 #ifdef INPUT_OUTPUT
-    freopen("../input/day-7.txt", "r", stdin);
-    freopen("../output/day-7-part-1.txt", "w", stdout);
+    freopen("../input/day-07.txt", "r", stdin);
+    freopen("../output/day-07-part-1.txt", "w", stdout);
 #endif
 
     std::unordered_map<std::string, int> dict;

@@ -12,8 +12,8 @@ const char e[N][4] = {
 int main()
 {
 #ifdef INPUT_OUTPUT
-    freopen("../input/day-4.txt", "r", stdin);
-    freopen("../output/day-4-part-1.txt", "w", stdout);
+    freopen("../input/day-04.txt", "r", stdin);
+    freopen("../output/day-04-part-1.txt", "w", stdout);
 #endif
 
     int ans = 0;

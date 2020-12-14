@@ -10,8 +10,8 @@ std::string s;
 int main()
 {
 #ifdef INPUT_OUTPUT
-    freopen("../input/day-6.txt", "r", stdin);
-    freopen("../output/day-6-part-1.txt", "w", stdout);
+    freopen("../input/day-06.txt", "r", stdin);
+    freopen("../output/day-06-part-1.txt", "w", stdout);
 #endif
 
     int ans = 0;

@@ -22,8 +22,8 @@ struct last
 int main()
 {
 #ifdef INPUT_OUTPUT
-    freopen("../input/day-8.txt", "r", stdin);
-    freopen("../output/day-8-part-2.txt", "w", stdout);
+    freopen("../input/day-08.txt", "r", stdin);
+    freopen("../output/day-08-part-2.txt", "w", stdout);
 #endif
 
     std::string act;

@@ -13,8 +13,8 @@ bool ans[1000];
 int main()
 {
 #ifdef INPUT_OUTPUT
-    freopen("../input/day-5.txt", "r", stdin);
-    freopen("../output/day-5-part-2.txt", "w", stdout);
+    freopen("../input/day-05.txt", "r", stdin);
+    freopen("../output/day-05-part-2.txt", "w", stdout);
 #endif
 
     int mx = -1,

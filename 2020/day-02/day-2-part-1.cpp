@@ -11,8 +11,8 @@ std::string s;
 int main()
 {
 #ifdef INPUT_OUTPUT
-    freopen("../input/day-2.txt", "r", stdin);
-    freopen("../output/day-2-part-1.txt", "w", stdout);
+    freopen("../input/day-02.txt", "r", stdin);
+    freopen("../output/day-02-part-1.txt", "w", stdout);
 #endif
 
     while (std::cin >> l >> temp >> h >> c >> temp >> s)

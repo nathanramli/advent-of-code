@@ -10,8 +10,8 @@ std::vector<uint64_t> q;
 int main()
 {
 #ifdef INPUT_OUTPUT
-    freopen("../input/day-9.txt", "r", stdin);
-    freopen("../output/day-9-part-1.txt", "w", stdout);
+    freopen("../input/day-09.txt", "r", stdin);
+    freopen("../output/day-09-part-1.txt", "w", stdout);
 #endif
     while (std::cin >> x)
         q.push_back(x);
