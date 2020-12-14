@@ -23,16 +23,18 @@ int main()
         _3rd = 0;
 
     size_t len = q.size();
-    for(size_t i=0;i<len;i++){
-        if(q[i] - x <= 3 && q[i] - x > 0){
-            if(q[i] - x == 1)
+    for (size_t i = 0; i < len; i++)
+    {
+        if (q[i] - x <= 3 && q[i] - x > 0)
+        {
+            if (q[i] - x == 1)
                 _1st++;
-            else if(q[i] - x == 3)
+            else if (q[i] - x == 3)
                 _3rd++;
             x = q[i];
         }
     }
-    if(q[len - 1] == x)
+    if (q[len - 1] == x)
         _3rd++;
     std::cout << _1st * _3rd << '\n';
 }
