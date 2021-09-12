@@ -71,6 +71,8 @@
         "xstring": "cpp"
     },
     "rust-analyzer.linkedProjects": [
-        "2020/day-12/b/Cargo.toml"
+        "2020/day-12/b/Cargo.toml",
+        "2019/day-01/a/Cargo.toml",
+        "2019/day-01/b/Cargo.toml"
     ]
 }
