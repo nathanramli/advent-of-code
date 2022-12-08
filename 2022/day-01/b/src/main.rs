@@ -24,6 +24,15 @@ fn main() {
 
     totals.sort();
 
-    fs::write("../../output/day-01-part-2.txt", totals.iter().rev().take(3).sum::<i32>().to_string().as_bytes())
-        .expect("error when writing the answer.");
+    fs::write(
+        "../../output/day-01-part-2.txt",
+        totals
+            .iter()
+            .rev()
+            .take(3)
+            .sum::<i32>()
+            .to_string()
+            .as_bytes(),
+    )
+    .expect("error when writing the answer.");
 }
