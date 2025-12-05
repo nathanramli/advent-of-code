@@ -71,6 +71,8 @@
         "xstring": "cpp"
     },
     "rust-analyzer.linkedProjects": [
+        "2025/day-05/b/Cargo.toml",
+        "2025/day-05/a/Cargo.toml",
         "2025/day-04/b/Cargo.toml",
         "2025/day-04/a/Cargo.toml",
         "2025/day-03/b/Cargo.toml",
@@ -79,6 +81,10 @@
         "2025/day-02/a/Cargo.toml",
         "2025/day-01/b/Cargo.toml",
         "2025/day-01/a/Cargo.toml",
+        "2024/day-05/a/Cargo.toml",
+        "2024/day-05/b/Cargo.toml",
+        "2024/day-04/a/Cargo.toml",
+        "2024/day-04/b/Cargo.toml",
         "2024/day-03/a/Cargo.toml",
         "2024/day-03/b/Cargo.toml",
         "2024/day-02/b/Cargo.toml",
